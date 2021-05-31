@@ -31,7 +31,7 @@
     }
     
     
-    // Skills
+    // Skillsbar
     $('.skills-bar').waypoint(function () {
         $('.progress .progress-bar').each(function () {
             $(this).css("width", $(this).attr("aria-valuenow") + '%');
@@ -53,14 +53,14 @@
     });
     
     
-    // Review slider
-    $('.review-slider').slick({
-        autoplay: true,
-        dots: false,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    });
+    // // Review slider
+    // $('.review-slider').slick({
+    //     autoplay: true,
+    //     dots: false,
+    //     infinite: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1
+    // });
     
     
     // Back to top button
