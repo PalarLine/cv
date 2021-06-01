@@ -131,8 +131,8 @@ a:focus {
         margin-left: -250px;
         float: left;
         overflow: auto;
-        scrollbar-width: thin;
-        scrollbar-color: gray;
+        /* scrollbar-width: thin; */
+        /* scrollbar-color: gray; */
         z-index: 2;
     }
 
@@ -603,7 +603,7 @@ a:focus {
 
 @media (min-width: 768px) {
      .education .container:nth-child(-n+2) .edu-col {
-        padding-top: 10;
+        padding-top: 10px;
     }  
 }
 
